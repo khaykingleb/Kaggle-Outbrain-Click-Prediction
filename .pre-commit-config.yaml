@@ -56,8 +56,6 @@ repos:
     hooks:
       - id: terraform_validate
       - id: terraform_docs
-        args:
-          - "--args=--config=terraform/.terraform.docs.yaml"
       - id: terraform_fmt
       - id: terraform_tflint
         args:
