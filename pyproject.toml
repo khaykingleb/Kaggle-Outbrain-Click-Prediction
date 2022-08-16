@@ -44,7 +44,7 @@ version_variable = [
   "src/__init__.py:__version__"
 ]
 version_pattern = [
-  "Makefile:^VERSION := {version}"
+  "Makefile:^VERSION := {version} [skip ci]"
 ]
 upload_to_pypi = false
 upload_to_release = false
