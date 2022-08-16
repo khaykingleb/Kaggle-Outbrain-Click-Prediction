@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "kaggle-outbrain-click-prediction"
+version = "0.0.0"
+description = "Kaggle Competition named Outbrain Click Prediction."
+authors = ["Gleb Khaykin <khaykingleb@gmail.com>"]
+repository = "https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.12"
+hydra-core = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.971"
+commitizen = "^2.31.0"
+pre-commit = "^2.20.0"
+detect-secrets = "^1.3.0"
+ipykernel = "^6.15.1"
+ipywidgets = "^7.7.1"
+matplotlib = "^3.5.3"
+jupyterlab = "^3.4.5"
+
+[tool.black]
+line-length = 88
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+multi_line_output = 3
+order_by_type = true
+from_first = false
+
+[tool.semantic_release]
+version_variable = [
+  "pyproject.toml:version",
+  "src/__init__.py:__version__"
+]
+version_pattern = [
+  "Makefile:^VERSION := {version}"
+]
+upload_to_pypi = false
+upload_to_release = false
+commit_subject = "chore(release): v{version}"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
