@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.0 (2022-08-17)
+### Feature
+* Add s3 logging setup ([`889471f`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/889471fcf0fe901202faebead3e767812c8ba43a))
+
 ## v0.4.0 (2022-08-17)
 ### Feature
 * Add s3 setup ([`7a9068e`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/7a9068e4f86618d540f61c640565b57b4fba9651))
