@@ -20,7 +20,7 @@ resource "aws_s3_bucket_acl" "log_bucket_acl" {
   acl    = "log-delivery-write"
 }
 
-resource "aws_s3_bucket_logging" "example" {
+resource "aws_s3_bucket_logging" "this" {
   bucket = aws_s3_bucket.this.id
 
   target_bucket = aws_s3_bucket.log_bucket.id
