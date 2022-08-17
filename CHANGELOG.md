@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.0 (2022-08-17)
+### Feature
+* Add ssh setup ([`e21626d`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/e21626daa1102a38fa384f61b8a3c438018dc7cc))
+
 ## v0.2.0 (2022-08-16)
 ### Feature
 * Add vpc setup ([`878125b`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/878125b0fbbd0aa92acb85d46d686a0ef9f29667))
