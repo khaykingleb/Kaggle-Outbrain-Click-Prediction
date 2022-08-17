@@ -10,6 +10,12 @@ variable "environment" {
   default     = ""
 }
 
+variable "region" {
+  description = "Servers location in Amazon's data centers"
+  type        = string
+  default     = ""
+}
+
 variable "cidr_block" {
   description = "The CIDR block for the VPC."
   type        = string

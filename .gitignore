@@ -16,6 +16,7 @@ pytest-coverage.txt
 .vscode
 
 # Terraform
+terraform/ssh
 .terraform
 *.tfvars
 *.tfstate
