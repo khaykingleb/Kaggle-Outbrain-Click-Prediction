@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.6.0 (2022-08-17)
+### Feature
+* Add iam roles & policies ([`e933f77`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/e933f77da42a81bf5986f319b654d41303c05e85))
+* Add iam roles & policies ([`36bab37`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/36bab375436ab1760197a990603cd0380c2301e9))
+
 ## v0.5.0 (2022-08-17)
 ### Feature
 * Add s3 logging setup ([`889471f`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/889471fcf0fe901202faebead3e767812c8ba43a))
