@@ -100,7 +100,7 @@ variable "slave_security_group_id" {
   default     = ""
 }
 
-variable "iam_erm_service_role_arn" {
+variable "iam_emr_role_arn" {
   description = "The Amazon Resource Name specifying the ERM service role."
   type        = string
   default     = ""

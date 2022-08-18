@@ -52,7 +52,7 @@ module "emr" {
   slave_instance_volume_type   = var.slave_instance_volume_type
   slave_instance_volume_count  = var.slave_instance_volume_count
 
-  iam_erm_service_role_arn = module.security.iam_erm_service_role_arn
+  iam_emr_role_arn = module.security.iam_emr_role_arn
   # autoscaling_role =
   # security_configuration =
 

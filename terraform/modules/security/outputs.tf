@@ -1,4 +1,4 @@
-output "iam_erm_service_role_arn" {
+output "iam_emr_role_arn" {
   description = "The Amazon Resource Name specifying the ERM service role."
   value       = aws_iam_role.emr.arn
 }

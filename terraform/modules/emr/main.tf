@@ -48,9 +48,9 @@ resource "aws_emr_cluster" "this" {
   #     args = # !!!
   # }
 
-  service_role = var.iam_erm_service_role_arn
-  # autoscaling_role = # !!!!
-  # security_configuration = # !!!!
+  service_role = var.iam_emr_role_arn
+  # autoscaling_role =
+  # security_configuration =
 
   # configurations = "${data.template_file.configuration.rendered}"
   # or
