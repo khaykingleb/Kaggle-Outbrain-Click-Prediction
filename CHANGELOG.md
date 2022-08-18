@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.8.0 (2022-08-18)
+### Feature
+* Add autoscaling role & policy ([`d152b7b`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/d152b7b6143e5f96eeb87a6d1b72721ed4c1823b))
+
 ## v0.7.0 (2022-08-18)
 ### Feature
 * Add emr setup ([`29bc2d3`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/29bc2d3f3122a1316e58e758c0af462bd026ccea))
