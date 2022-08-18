@@ -23,12 +23,22 @@ output "default_network_acl_id" {
   value       = aws_vpc.this.default_network_acl_id
 }
 
+output "private_subnet_id" {
+  description = "The ID of the private subnet."
+  value       = aws_subnet.private.id
+}
+
+output "public_subnet_id" {
+  description = "The ID of the public subnet."
+  value       = aws_subnet.public.id
+}
+
 output "private_route_table_id" {
-  description = "The ID of the private route table"
+  description = "The ID of the private route table."
   value       = aws_route_table.private.id
 }
 
 output "public_route_table_id" {
-  description = "The ID of the public route table"
+  description = "The ID of the public route table."
   value       = aws_route_table.public.id
 }
