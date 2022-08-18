@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.7.0 (2022-08-18)
+### Feature
+* Add emr setup ([`29bc2d3`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/29bc2d3f3122a1316e58e758c0af462bd026ccea))
+
 ## v0.6.0 (2022-08-17)
 ### Feature
 * Add iam roles & policies ([`e933f77`](https://github.com/khaykingleb/Kaggle-Outbrain-Click-Prediction/commit/e933f77da42a81bf5986f319b654d41303c05e85))
