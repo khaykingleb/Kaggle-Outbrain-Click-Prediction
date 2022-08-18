@@ -31,7 +31,7 @@ module "emr" {
 
   release_label = var.emr_release_label
   applications  = var.emr_applications
-  s3_log_bucket = module.s3.s3_log_bucket
+  s3_log_bucket = module.s3.log_bucket
 
   root_volume_size = var.root_volume_size
 

@@ -77,7 +77,7 @@ variable "root_volume_size" {
 }
 
 variable "s3_log_bucket" {
-  description = "Name of the log bucket."
+  description = "Name of the S3 log bucket."
   type        = string
   default     = ""
 }
